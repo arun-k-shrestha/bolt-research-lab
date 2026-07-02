@@ -1,9 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
-  <title id="title">B logo</title>
-  <desc id="desc">A single Coinbase-blue letter B on a transparent background.</desc>
-  <text x="120" y="176" text-anchor="middle"
-    fill="#0052FF"
+  <title id="title">B shield logo</title>
+  <desc id="desc">A black letter B inside a white shield with a dark border.</desc>
+  <path
+    d="M120 20 204 58v62c0 52-34 90-84 106-50-16-84-54-84-106V58L120 20Z"
+    fill="#ffffff"
+    stroke="#111827"
+    stroke-linejoin="round"
+    stroke-width="14"
+  />
+  <text x="120" y="169" text-anchor="middle"
+    fill="#000000"
     font-family="Arial Black, Inter, Segoe UI, Arial, sans-serif"
-    font-size="178"
+    font-size="132"
     font-weight="900">B</text>
 </svg>
