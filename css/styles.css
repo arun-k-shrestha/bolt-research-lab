@@ -124,6 +124,12 @@ h2 {
   font-size: 1.3rem;
 }
 
+h3 {
+  margin: 0 0 0.15rem;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
 p,
 ul,
 ol {
@@ -139,6 +145,38 @@ ol {
   border-top: 1px solid #ddd;
   margin-top: 1.5rem;
   padding-top: 0.75rem;
+}
+
+.people-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.person {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.person p {
+  margin-bottom: 0;
+}
+
+.person-photo {
+  width: 96px;
+  height: 96px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.person-photo-placeholder {
+  display: grid;
+  place-items: center;
+  background: #f3f3f3;
+  color: #555;
+  font-weight: 700;
 }
 
 .publication-list li,
@@ -164,5 +202,14 @@ address {
 @media (max-width: 640px) {
   h1 {
     font-size: 1.65rem;
+  }
+
+  .person {
+    grid-template-columns: 72px 1fr;
+  }
+
+  .person-photo {
+    width: 72px;
+    height: 72px;
   }
 }
